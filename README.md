@@ -1,4 +1,6 @@
 # 以太坊地址钱包靓号生成器
+[English](https://github.com/BitBitKing/Wallet-Generate/blob/main/README.EN.md) | 简体中文
+
 这是一个简单的BIP39以太坊地址钱包靓号生成器，可以指定位数和利用正则（比如结尾888）来生成靓号、助记词和私钥。
 
 ## 安装
@@ -7,7 +9,8 @@
 
 ## 用法
 - cd 进入到本项目目录
-- 修改 wallet-generate 相应配置
+- `npm install`
+- 修改 wallet-generate.js 相应配置
 - node ./wallet-generate.js 或 npm run start 运行等待生成 output.txt
 
 ## 选项
